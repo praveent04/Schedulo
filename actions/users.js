@@ -39,6 +39,7 @@ export async function getUserByUsername(username) {
       id: true,
       name: true,
       email: true,
+      username: true,
       imageUrl: true,
       events: {
         where: {
